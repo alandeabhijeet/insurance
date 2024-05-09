@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- ===============================================-->
+    <!--    Document Title-->
+    <!-- ===============================================-->
+    <title>Ensurance | Landing &amp; Corporate Template</title>
+
+    <link rel="stylesheet" href="/style.css">
+
+</head>
+
+<body>
+    <!-- ===============================================-->
+    <!--    Main Content-->
+    <!-- ===============================================-->
+    <main class="main" id="top">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" data-navbar-on-scroll="data-navbar-on-scroll">
+            <div class="container"><a class="navbar-brand" href="index.html"><span class="text-primary fs-3 ms-2 fw-bolder">en</span><span class="fw-thin text-300 fs-3">surance</span></a><button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse pt-4 pt-lg-0" id="navbarSupportedContent">
+                    <p class="mb-0 ms-auto text-light fs-0 fw-normal"><i class="fas fa-phone-alt me-2"></i>Call Us Now <a class="text-light" href="tel:+604-680-9785">+215(362)4579</a></p>
+                    <ul class="navbar-nav ms-auto border-bottom border-lg-bottom-0 pt-2 pt-lg-0">
+                        <li class="nav-item px-2"><a class="nav-link active" aria-current="page" href="/customer/<%=id %>">Home</a></li>
+                        <li class="nav-item px-2"><a class="nav-link" href="#products">Products</a></li>
+                        <li class="nav-item px-2"><a class="nav-link" href="#news">News &amp; Blog</a></li>
+                        <li class="nav-item px-2"><a class="nav-link" href="#contact">Contact us</a></li>
+                    </ul>
+                    <div class="d-flex mt-2 align-items-center mt-lg-0">
+                            <a href="/customer/<%=id%>/profile"> <i class="fas fa-user text-primary"> </i></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        
+        
+
+        <!-- <section> close ============================-->
+        <!-- ============================================-->
+
+
+
+        <!-- ============================================-->
+        <!-- <section> begin ============================-->
+        <section id="news">
+            <div class="container">
+                
+                <div class="row justify-content-center">
+                    <div class="col-md-6 col-xl-5 pe-xxl-0">
+                        <div class="card card-bg shadow hero-header-form">
+                            <div class="card-body p-5 p-xl-6">
+                                <h2 class="text-100 text-center">Apply for Policy</h2>
+                                <br>
+                                <form class="mb-3" action="create-application" method="post">
+                                    
+                                    <div class="form-floating mb-3">
+                                        <input class="form-control input-box form-ensurance-header-control" id="floatingCoverageId" type="text" placeholder="Coverage ID" name="coverage_id" value="<%=  %>" />
+                                        <label for="floatingCoverageId">Coverage ID</label>
+                                    </div>
+                                    
+                                   
+                                    <div class="form-floating mb-3">
+                                        <input class="form-control input-box form-ensurance-header-control" id="floatingNOKName" type="text" placeholder="NOK Name" name="nok_name" value="<%=  %>" />
+                                        <label for="floatingNOKName">NOK Name</label>
+                                    </div>
+                                    <div class="form-floating mb-3">
+                                        <input class="form-control input-box form-ensurance-header-control" id="floatingNOKAddress" type="text" placeholder="NOK Address" name="nok_address" value="<%=  %>" />
+                                        <label for="floatingNOKAddress">NOK Address</label>
+                                    </div>
+                                    <div class="form-floating mb-3">
+                                        <input class="form-control input-box form-ensurance-header-control" id="floatingNOKPhoneNumber" type="text" placeholder="NOK Phone Number" name="nok_phone_number" value="<%=  %>" />
+                                        <label for="floatingNOKPhoneNumber">NOK Phone Number</label>
+                                    </div>
+                                    <div class="form-floating mb-3">
+                                        <input class="form-control input-box form-ensurance-header-control" id="floatingNOKMaritalStatus" type="text" placeholder="NOK Marital Status" name="nok_marital_status" value="<%=  %>" />
+                                        <label for="floatingNOKMaritalStatus">NOK Marital Status</label>
+                                    </div>
+                                    <div class="form-floating mb-3">
+                                        <input class="form-control input-box form-ensurance-header-control" id="floatingNOKGender" type="text" placeholder="NOK Gender" name="nok_gender" value="<%=  %>" />
+                                        <label for="floatingNOKGender">NOK Gender</label>
+                                    </div>
+                                    <div class="form-floating mb-3">
+                                        <input class="form-control input-box form-ensurance-header-control" id="floatingVehicleRegNumber" type="text" placeholder="Vehicle Registration Number" name="vehicle_registration_number" value="<%=  %>" />
+                                        <label for="floatingVehicleRegNumber">Vehicle Registration Number</label>
+                                    </div>
+                                    <div class="form-floating mb-3">
+                                        <input class="form-control input-box form-ensurance-header-control" id="floatingVehicleValue" type="text" placeholder="Vehicle Value" name="vehicle_value" value="<%=  %>" />
+                                        <label for="floatingVehicleValue">Vehicle Value</label>
+                                    </div>
+                                    <div class="form-floating mb-3">
+                                        <input class="form-control input-box form-ensurance-header-control" id="floatingVehicleType" type="text" placeholder="Vehicle Type" name="vehicle_type" value="<%=  %>" />
+                                        <label for="floatingVehicleType">Vehicle Type</label>
+                                    </div>
+                                    <div class="form-floating mb-3">
+                                        <input class="form-control input-box form-ensurance-header-control" id="floatingVehicleSize" type="text" placeholder="Vehicle Size" name="vehicle_size" value="<%=  %>" />
+                                        <label for="floatingVehicleSize">Vehicle Size</label>
+                                    </div>
+                                    <div class="form-floating mb-3">
+                                        <input class="form-control input-box form-ensurance-header-control" id="floatingVehicleNumSeats" type="text" placeholder="Vehicle Number of Seats" name="vehicle_number_of_seats" value="<%=  %>" />
+                                        <label for="floatingVehicleNumSeats">Vehicle Number of Seats</label>
+                                    </div>
+                                    <div class="form-floating mb-3">
+                                        <input class="form-control input-box form-ensurance-header-control" id="floatingVehicleManufacturer" type="text" placeholder="Vehicle Manufacturer" name="vehicle_manufacturer" value="<%=  %>" />
+                                        <label for="floatingVehicleManufacturer">Vehicle Manufacturer</label>
+                                    </div>
+                                    <div class="form-floating mb-3">
+                                        <input class="form-control input-box form-ensurance-header-control" id="floatingVehicleChassisNumber" type="text" placeholder="Vehicle Chassis Number" name="vehicle_chasis_number" value="<%=  %>" />
+                                        <label for="floatingVehicleChassisNumber">Vehicle Chassis Number</label>
+                                    </div>
+                                    <div class="form-floating mb-3">
+                                        <input class="form-control input-box form-ensurance-header-control" id="floatingVehicleNumber" type="text" placeholder="Vehicle Number" name="vehicle_number" value="<%=  %>" />
+                                        <label for="floatingVehicleNumber">Vehicle Number</label>
+                                    </div>
+                                    <div class="form-floating mb-3">
+                                        <input class="form-control input-box form-ensurance-header-control" id="floatingVehicleModelNumber" type="text" placeholder="Vehicle Model Number" name="vehicle_model_number" value="<%=  %>" />
+                                        <label for="floatingVehicleModelNumber">Vehicle Model Number</label>
+                                    </div>
+                                    <div class="col-12 d-grid">
+                                        <button class="btn btn-primary rounded-pill" type="submit">Submit</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>  
+            <!-- end of .container-->
+        </section>
+        <!-- <section> close ============================-->
+        <!-- ============================================-->
+
+
+
+        <!-- ============================================-->
+        <!-- <section> begin ============================-->
+        <section class="py-0">
+            <div class="container">
+                <div class="row align-items-center justify-content-xl-between">
+                    <h2 class="text-light text-center my-5">Partners</h2>
+                    <div class="col-auto col-md-4 col-lg-auto my-3 text-xl-start"><img src="../assets/img/gallery/partner-1.png" height="40" alt="Partner" /></div>
+                    <div class="col-auto col-md-4 col-lg-auto my-3 text-xl-start"><img src="../assets/img/gallery/partner-2.png" height="40" alt="Partner" /></div>
+                    <div class="col-auto col-md-4 col-lg-auto my-3 text-xl-start"><img src="../assets/img/gallery/partner-3.png" height="40" alt="Partner" /></div>
+                    <div class="col-auto col-md-4 col-lg-auto my-3 text-xl-start"><img src="../assets/img/gallery/partner-4.png" height="40" alt="Partner" /></div>
+                    <div class="col-auto col-md-4 col-lg-auto my-3 text-xl-start"><img src="../assets/img/gallery/partner-5.png" height="40" alt="Partner" /></div>
+                </div>
+            </div>
+            <!-- end of .container-->
+        </section>
+        <!-- <section> close ============================-->
+        <!-- ============================================-->
+
+
+
+        <!-- ============================================-->
+        <!-- <section> begin ============================-->
+        <section id="contact">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-light text-center mb-8">Contact Us</h2>
+                    <div class="col-12 col-lg-6 col-xl-7 mb-4 order-0 order-sm-0"><a class="logo-footer fs-7" href="index.html"><span class="text-primary fw-bolder">en</span><span class="fw-thin text-300">surance</span></a>
+                        <p class="text-light my-4"> <i class="fas fa-map-marker-alt me-3"></i><span class="text-light">1500 Treat Ave, Suite 200  &nbsp;</span><a class="text-light" href="tel:+604-680-9785">+604-680-9785</a><br />San Francisco, CA 94110</p>
+                        <p class="text-light"> <i class="fas fa-envelope me-3 text-primary"> </i><a href="mailto:vctung@outlook.com">vctung@outlook.com </a></p>
+                        <p class="text-light"> <i class="fas fa-phone-alt me-3 text-primary"> </i><a href="tel:1-800-800-2299">1-800-800-2299 (Support)</a></p>
+                    </div>
+                    <div class="col-12 col-lg-6 col-xl-5">
+                        <h3 class="text-200 my-4">Subscribe to newsletter </h3>
+                        <form class="position-relative">
+                            <div class="input-group-icon"><input class="form-control form-ensurance-control" type="email" placeholder="Enter your email " aria-label="email" /></div><button class="btn btn-primary btn-subscribe" type="submit">Subscribe now</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- end of .container-->
+        </section>
+        <!-- <section> close ============================-->
+        <!-- ============================================-->
+
+
+
+        <!-- ============================================-->
+        <!-- <section> begin ============================-->
+        <section class="py-0">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="d-md-flex justify-content-between pb-1 pt-4">
+                            <div class="pb-4">
+                                <ul class="widget-list d-flex flex-wrap justify-content-center justify-content-md-start">
+                                    <li><a class="widget-list-link fs-ms" href="#">Home</a></li>
+                                    <li class="ms-4"><a class="widget-list-link fs-ms" href="#">About Us</a></li>
+                                    <li class="ms-4"><a class="widget-list-link fs-ms" href="#">Blog</a></li>
+                                    <li class="ms-4"><a class="widget-list-link fs-ms" href="#">Services</a></li>
+                                    <li class="ms-4"><a class="widget-list-link fs-ms" href="#">Terms &amp; Conditions</a></li>
+                                </ul>
+                            </div>
+                            <div class="pb-4">
+                                <ul class="list-unstyled list-inline my-2">
+                                    <li class="list-inline-item"><a class="text-decoration-none" href="#!"><i class="fab fa-facebook-square fa-2x social-icons"></i></a></li>
+                                    <li class="list-inline-item"><a class="text-decoration-none" href="#!"><i class="fab fa-instagram fa-2x social-icons"></i></a></li>
+                                    <li class="list-inline-item"><a class="text-decoration-none" href="#!"><i class="fab fa-twitter-square fa-2x social-icons"> </i></a></li>
+                                    <li class="list-inline-item"><a class="text-decoration-none" href="#!"><i class="fab fa-linkedin fa-2x social-icons"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end of .container-->
+        </section>
+        <!-- <section> close ============================-->
+        <!-- ============================================-->
+
+
+
+        <!-- ============================================-->
+        <!-- <section> begin ============================-->
+        <section class="py-0 bg-black">
+            <div class="container">
+                <div class="row justify-content-md-between justify-content-evenly py-4">
+                    <div class="col-12 col-sm-8 col-md-6 col-lg-auto text-center text-md-start">
+                        <p class="fs--1 my-2 fw-light text-200">All rights Reserved &copy; Your Company, 2021</p>
+                    </div>
+                    <div class="col-12 col-sm-8 col-md-6">
+                        <p class="fs--1 fw-light my-2 text-center text-md-end text-200"> Made with&nbsp;<svg class="bi bi-suit-heart-fill" xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="#F95C19" viewBox="0 0 16 16">
+                  <path d="M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1z"></path>
+                </svg>&nbsp;by&nbsp;<a class="fw-bold text-primary" href="https://themewagon.com/" target="_blank">ThemeWagon</a></p>
+                    </div>
+                </div>
+            </div>
+            <!-- end of .container-->
+        </section>
+        <!-- <section> close ============================-->
+        <!-- ============================================-->
+
+    </main>
+    <!-- ===============================================-->
+    <!--    End of Main Content-->
+    <!-- ===============================================-->
+
+
+
+    <!-- ===============================================-->
+    <!--    JavaScripts-->
+    <!-- ===============================================-->
+    <script src="../vendors/popper/popper.min.js"></script>
+    <script src="../vendors/bootstrap/bootstrap.min.js"></script>
+    <script src="../vendors/anchorjs/anchor.min.js"></script>
+    <script src="../vendors/is/is.min.js"></script>
+    <script src="../vendors/fontawesome/all.min.js"></script>
+    <script src="../vendors/lodash/lodash.min.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
+    <script src="../vendors/prism/prism.js"></script>
+    <script src="../assets/js/theme.js"></script>
+</body>
+
+</html>

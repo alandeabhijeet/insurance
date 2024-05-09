@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <main class="main" id="top">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" data-navbar-on-scroll="data-navbar-on-scroll">
+            <div class="container"><a class="navbar-brand" href="index.html"><span class="text-primary fs-3 ms-2 fw-bolder">en</span><span class="fw-thin text-300 fs-3">surance</span></a><button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse pt-4 pt-lg-0" id="navbarSupportedContent">
+                    <p class="mb-0 ms-auto text-light fs-0 fw-normal"><i class="fas fa-phone-alt me-2"></i>Call Us Now <a class="text-light" href="tel:+604-680-9785">+215(362)4579</a></p>
+                    <ul class="navbar-nav ms-auto border-bottom border-lg-bottom-0 pt-2 pt-lg-0">
+                        <li class="nav-item px-2"><a class="nav-link active" aria-current="page" href="/customer/<%=id %>">Home</a></li>
+                        <li class="nav-item px-2"><a class="nav-link" href="#products">Products</a></li>
+                        <li class="nav-item px-2"><a class="nav-link" href="#news">News &amp; Blog</a></li>
+                        <li class="nav-item px-2"><a class="nav-link" href="#contact">Contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <section class="py-0">
+            <div class="bg-holder" style="background-image:url(assets/img/illustrations/bg.png);background-position:left center;background-size:auto 816px;"></div>
+            <!--/.bg-holder-->
+            <div class="container">
+                <div class="row align-items-center min-vh-100">
+                    <div class="col-md-7 col-xl-7 pt-9 text-md-start text-center">
+                        <h1 class="display-2 text-light fw-thin">We provide the best <br class="d-none d-xl-block" />value <strong class="fw-bolder">insurance </strong></h1>
+                        <p class="fs-2 text-400">Simple Steps You Can Take to Improve Your <br class="d-none d-xxl-block" />Financial Well-Being for the rest of Your Life </p><a class="btn btn-primary btn-ensurance mt-5" href="#!"><span class="fas fa-chevron-right fa-xs btn-icon"></span><span class="btn-text">Learn more</span></a>
+                    </div>
+                    <div class="col-md-5 col-xl-5 pe-xxl-0">
+                        <div class="card card-bg shadow hero-header-form">
+                            <div class="card-body p-4 p-xl-6">
+                                <h2 class="text-100 text-center">Apply Claim</h2>
+                                
+                                <form class="mb-3" action="<%=aggid %>" method="post">
+                                    <div class="form-floating mb-3">
+                                        <input class="form-control input-box form-ensurance-header-control" id="floatingFirstName" type="number" placeholder="claim amt" name="claim_amount" />
+                                        <label for="floatingFirstName">Claim Amount</label>
+                                    </div>
+                                    <div class="form-floating mb-3">
+                                        <input class="form-control input-box form-ensurance-header-control" id="floatingLastName" type="text" placeholder="damage type" name="damage_type" />
+                                        <label for="floatingLastName">Damage Type</label>
+                                    </div>
+                                    <div class="form-floating mb-3">
+                                        <input class="form-control input-box form-ensurance-header-control" id="floatingDOB" type="date" placeholder="staff" name="date_of_claim" />
+                                        <label for="floatingDOB">Date of Claim</label>
+                                    </div>
+                                  
+                                
+                                    <div class="col-12 d-grid">
+                                        <button class="btn btn-primary rounded-pill" type="submit">Submit</button>
+                                    </div>
+                                </form>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section> close ============================-->
+        <!-- ============================================-->
+
+
+
+        <!-- ============================================-->
+        <!-- <section> begin ============================-->
+   
+        <!-- <section> close ============================-->
+        <!-- ============================================-->
+
+    </main>
+    <!-- ===============================================-->
+    <!--    End of Main Content-->
+    <!-- ===============================================-->
+
+
+
+    <!-- ===============================================-->
+    <!--    JavaScripts-->
+    <!-- ===============================================-->
+    <script src="../vendors/popper/popper.min.js"></script>
+    <script src="../vendors/bootstrap/bootstrap.min.js"></script>
+    <script src="../vendors/anchorjs/anchor.min.js"></script>
+    <script src="../vendors/is/is.min.js"></script>
+    <script src="../vendors/fontawesome/all.min.js"></script>
+    <script src="../vendors/lodash/lodash.min.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
+    <script src="../vendors/prism/prism.js"></script>
+    <script src="../assets/js/theme.js"></script>
+</main>
+</body>
+</html>
